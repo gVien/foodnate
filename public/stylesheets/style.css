@@ -12,5 +12,37 @@ body {
 }
 
 .center {
+  /*text-align: center;*/
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.profile-btns {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 50%;
   text-align: center;
+}
+
+#dash-btn {
+  float: left;
+  background-color: blue;
+  width: 50%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#donate-btn {
+  background-color: green;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#dashboard {
+}
+
+#donate {
+  display: none;
 }
