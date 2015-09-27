@@ -9,7 +9,7 @@ var exphbs  = require('express-handlebars');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var signup_shelter = require("./routes/users")
+// var signup_shelter = require("./routes/index/signup_shelter")
 
 var app = express();
 
@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use("/signup_shelter", signup_shelter);
+// app.use("/signup_shelter", signup_shelter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
